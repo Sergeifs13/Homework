@@ -1,8 +1,8 @@
 public class Main {
     public static void main(String[] args) {
         Voter v1=new Voter("Mihael","KarlStrasse 11",23);
-        Voter v2=new Voter("Andreas","BachStrasse",18);
-        Voter v3=new Voter("Stefan","BagStrasse",55);
+        Voter v2=new Voter("Andreas","BachStrasse 110",18);
+        Voter v3=new Voter("Stefan","BagStrasse 2/123",55);
        // v1.setAge(71);
 
         System.out.println("name Voter: "+v1.getName());

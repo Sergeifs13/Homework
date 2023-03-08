@@ -29,7 +29,7 @@ public class Voter {
     }
 
     public void setAge(int age) {
-        if (age > 16) {
+        if (age < 16) {
             this.age = age;
         } else {
             System.out.println("Voter age Error!!!");
